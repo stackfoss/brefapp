@@ -1,5 +1,5 @@
 ---
-sidebar_position:1
+sidebar_position: 1
 ---
 # Unraveling the Depths of Theory: A Comprehensive Exploration
 

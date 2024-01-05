@@ -1,8 +1,12 @@
 ---
-slug: the-depths-of-theory
-title: Unraveling the Depths of Theory - A Comprehensive Exploration
-authors: Brefapp
-tags: [Theory]
+title: "Unraveling the Depths of Theory: A Comprehensive Exploration"
+slug: "Unraveling the Depths of Theory: A Comprehensive Exploration"
+tags:
+  - Theory
+  - Psychology
+authors:
+  - name: StackFoss
+    title: Theory
 ---
 # Unraveling the Depths of Theory: A Comprehensive Exploration
 
