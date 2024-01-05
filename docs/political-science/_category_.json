@@ -1,0 +1,10 @@
+{
+  "label": "Political Science",
+  "position": 6,
+  "link": {
+    "to": "/political-science",
+    "label": "Explore Political Theories",
+    "description": "Examine different political theories that analyze the structure, functioning, and dynamics of political systems."
+  }
+}
+

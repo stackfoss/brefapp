@@ -1,0 +1,10 @@
+{
+  "label": "Sociology",
+  "position": 4,
+  "link": {
+    "to": "/sociology",
+    "label": "Explore Sociological Theories",
+    "description": "Study human society and social behavior through various sociological theories and perspectives."
+  }
+}
+

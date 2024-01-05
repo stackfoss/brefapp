@@ -1,0 +1,10 @@
+{
+  "label": "Philosophy",
+  "position": 3,
+  "link": {
+    "to": "/philosophy",
+    "label": "Explore Philosophical Ideas",
+    "description": "Delve into profound philosophical ideas and concepts that have shaped human thought throughout history."
+  }
+}
+

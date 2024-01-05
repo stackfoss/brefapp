@@ -1,0 +1,10 @@
+{
+  "label": "Science",
+  "position": 7,
+  "link": {
+    "to": "/science",
+    "label": "Explore Scientific Theories",
+    "description": "Dive into scientific theories across various disciplines, explaining natural phenomena and advancing human understanding of the world."
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "label": "Economics",
+  "position": 5,
+  "link": {
+    "to": "/economics",
+    "label": "Explore Economic Theories",
+    "description": "Understand the principles of economics and explore different economic theories that explain economic phenomena."
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "label": "Psychology",
+  "position": 2,
+  "link": {
+    "to": "/psychology",
+    "label": "Explore Psychology Theories",
+    "description": "Delve into the fascinating world of psychology and study theories that explain human behavior and mental processes."
+  }
+}
+
