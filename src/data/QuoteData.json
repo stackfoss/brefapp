@@ -1,0 +1,296 @@
+[
+  {
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "bookTitle": "Thoughts on a New Deal",
+    "category": "Inspiration"
+  },
+  {
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "bookTitle": "Tao Te Ching",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+    "author": "Dr. Seuss",
+    "bookTitle": "I Can Read With My Eyes Shut!",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "bookTitle": "The Collected Poems",
+    "category": "Poetry"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "bookTitle": "Steve Jobs: The Exclusive Biography",
+    "category": "Biography"
+  },
+  {
+    "quote": "Books are a uniquely portable magic.",
+    "author": "Stephen King",
+    "bookTitle": "On Writing: A Memoir of the Craft",
+    "category": "Writing"
+  },
+  {
+    "quote": "To Kill a Mockingbird is really two stories. One is a coming-of-age tale. The other is a moral awakening.",
+    "author": "Harper Lee",
+    "bookTitle": "To Kill a Mockingbird",
+    "category": "Fiction"
+  },
+  {
+    "quote": "The fault, dear Brutus, is not in our stars, but in ourselves.",
+    "author": "William Shakespeare",
+    "bookTitle": "Julius Caesar",
+    "category": "Drama"
+  },
+  {
+    "quote": "The only thing we have to fear is fear itself.",
+    "author": "Dale Carnegie",
+    "bookTitle": "How to Win Friends and Influence People",
+    "category": "Self-Help"
+  },
+  {
+    "quote": "In the beginning, God created the heavens and the earth.",
+    "author": "Anonymous",
+    "bookTitle": "The Bible",
+    "category": "Religion"
+  },
+  {
+    "quote": "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.",
+    "author": "J.K. Rowling",
+    "bookTitle": "Harry Potter and the Goblet of Fire",
+    "category": "Fantasy"
+  },
+  {
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "author": "Jordan Belfort",
+    "bookTitle": "The Wolf of Wall Street",
+    "category": "Business"
+  },
+  {
+    "quote": "The more I see, the less I know for sure.",
+    "author": "John Lennon",
+    "bookTitle": "In His Own Write",
+    "category": "Music"
+  },
+  {
+    "quote": "In every job that must be done, there is an element of fun.",
+    "author": "P.L. Travers",
+    "bookTitle": "Mary Poppins",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "bookTitle": "This Is My Story",
+    "category": "Inspiration"
+  },
+  {
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "bookTitle": "Nicomachean Ethics",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "Oh, the places you'll go!",
+    "author": "Dr. Seuss",
+    "bookTitle": "Oh, the Places You'll Go!",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+    "author": "Robert Frost",
+    "bookTitle": "The Road Not Taken",
+    "category": "Poetry"
+  },
+  {
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "bookTitle": "Stanford University Commencement Speech",
+    "category": "Biography"
+  },
+  {
+    "quote": "Write what should not be forgotten.",
+    "author": "Isabel Allende",
+    "bookTitle": "Paula",
+    "category": "Writing"
+  },
+  {
+    "quote": "Atticus, he was real nice.",
+    "author": "Harper Lee",
+    "bookTitle": "To Kill a Mockingbird",
+    "category": "Fiction"
+  },
+  {
+    "quote": "It is not in the stars to hold our destiny but in ourselves.",
+    "author": "William Shakespeare",
+    "bookTitle": "Julius Caesar",
+    "category": "Drama"
+  },
+  {
+    "quote": "Don't be afraid of enemies who attack you. Be afraid of the friends who flatter you.",
+    "author": "Dale Carnegie",
+    "bookTitle": "How to Win Friends and Influence People",
+    "category": "Self-Help"
+  },
+  {
+    "quote": "In the beginning, God created the heavens and the earth.",
+    "author": "Anonymous",
+    "bookTitle": "The Bible",
+    "category": "Religion"
+  },
+  {
+    "quote": "The world isn't split into good people and Death Eaters. We've all got both light and dark inside us.",
+    "author": "J.K. Rowling",
+    "bookTitle": "Harry Potter and the Order of the Phoenix",
+    "category": "Fantasy"
+  },
+  {
+    "quote": "Act as if! Act as if you're a wealthy man, rich already, and then you'll surely become rich.",
+    "author": "Jordan Belfort",
+    "bookTitle": "The Wolf of Wall Street",
+    "category": "Business"
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "bookTitle": "In His Own Write",
+    "category": "Music"
+  },
+  {
+    "quote": "In every job that must be done, there is an element of fun.",
+    "author": "P.L. Travers",
+    "bookTitle": "Mary Poppins",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "bookTitle": "This Is My Story",
+    "category": "Inspiration"
+  },
+  {
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "bookTitle": "Nicomachean Ethics",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "Oh, the places you'll go!",
+    "author": "Dr. Seuss",
+    "bookTitle": "Oh, the Places You'll Go!",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+    "author": "Robert Frost",
+    "bookTitle": "The Road Not Taken",
+    "category": "Poetry"
+  },
+  {
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "bookTitle": "Stanford University Commencement Speech",
+    "category": "Biography"
+  },
+  {
+    "quote": "Write what should not be forgotten.",
+    "author": "Isabel Allende",
+    "bookTitle": "Paula",
+    "category": "Writing"
+  },
+  {
+    "quote": "Atticus, he was real nice.",
+    "author": "Harper Lee",
+    "bookTitle": "To Kill a Mockingbird",
+    "category": "Fiction"
+  },
+  {
+    "quote": "It is not in the stars to hold our destiny but in ourselves.",
+    "author": "William Shakespeare",
+    "bookTitle": "Julius Caesar",
+    "category": "Drama"
+  },
+  {
+    "quote": "Don't be afraid of enemies who attack you. Be afraid of the friends who flatter you.",
+    "author": "Dale Carnegie",
+    "bookTitle": "How to Win Friends and Influence People",
+    "category": "Self-Help"
+  },
+  {
+    "quote": "In the beginning, God created the heavens and the earth.",
+    "author": "Anonymous",
+    "bookTitle": "The Bible",
+    "category": "Religion"
+  },
+  {
+    "quote": "The world isn't split into good people and Death Eaters. We've all got both light and dark inside us.",
+    "author": "J.K. Rowling",
+    "bookTitle": "Harry Potter and the Order of the Phoenix",
+    "category": "Fantasy"
+  },
+  {
+    "quote": "Act as if! Act as if you're a wealthy man, rich already, and then you'll surely become rich.",
+    "author": "Jordan Belfort",
+    "bookTitle": "The Wolf of Wall Street",
+    "category": "Business"
+  },
+  {
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "bookTitle": "In His Own Write",
+    "category": "Music"
+  },
+  {
+    "quote": "In every job that must be done, there is an element of fun.",
+    "author": "P.L. Travers",
+    "bookTitle": "Mary Poppins",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "bookTitle": "This Is My Story",
+    "category": "Inspiration"
+  },
+  {
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "bookTitle": "Nicomachean Ethics",
+    "category": "Philosophy"
+  },
+  {
+    "quote": "Oh, the places you'll go!",
+    "author": "Dr. Seuss",
+    "bookTitle": "Oh, the Places You'll Go!",
+    "category": "Children's Literature"
+  },
+  {
+    "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+    "author": "Robert Frost",
+    "bookTitle": "The Road Not Taken",
+    "category": "Poetry"
+  },
+  {
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "bookTitle": "Stanford University Commencement Speech",
+    "category": "Biography"
+  },
+  {
+    "quote": "Write what should not be forgotten.",
+    "author": "Isabel Allende",
+    "bookTitle": "Paula",
+    "category": "Writing"
+  },
+  {
+    "quote": "Atticus, he was real nice.",
+    "author": "Harper Lee",
+    "bookTitle": "To Kill a Mockingbird",
+    "category": "Fiction"
+  }
+]

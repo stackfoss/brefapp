@@ -1,0 +1,33 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Classic",
+      "content": "A captivating story about the American Dream and the Roaring Twenties."
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Classic",
+      "content": "A powerful exploration of racial injustice and moral growth in the Deep South."
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian",
+      "content": "An unsettling vision of a totalitarian society and the consequences of unchecked power."
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "category": "Science Fiction",
+      "content": "A hilarious and absurd journey through space with an unwitting human and his alien friend."
+    },
+    {
+      "title": "Educated",
+      "author": "Tara Westover",
+      "category": "Memoir",
+      "content": "A memoir about a woman who grows up in a strict and abusive household but eventually escapes to learn about the world."
+    }
+  ]
+  

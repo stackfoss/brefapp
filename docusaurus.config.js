@@ -1,51 +1,32 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+import { themes as prismThemes } from 'prism-react-renderer';
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Brefapp',
   tagline: 'Big Ideas Summarized For You',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://brefapp.pages.dev',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  organizationName: 'facebook',
+  projectName: 'docusaurus',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-plugins: [
-  async function myPlugin(context, options) {
-    return {
-      name: "docusaurus-tailwindcss",
-      configurePostCss(postcssOptions) {
-        // Appends TailwindCSS and AutoPrefixer.
-        postcssOptions.plugins.push(require("tailwindcss"));
-        postcssOptions.plugins.push(require("autoprefixer"));
-        return postcssOptions;
-      },
-    };
-  },
-      [
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+    [
       '@docusaurus/plugin-pwa',
       {
         debug: true,
@@ -63,7 +44,7 @@ plugins: [
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/manifest.json', // your PWA manifest
+            href: '/manifest.json',
           },
           {
             tagName: 'meta',
@@ -73,114 +54,119 @@ plugins: [
         ],
       },
     ],
-],
-
+    [
+      "@gracefullight/docusaurus-plugin-google-adsense",
+      { adClient: "pub-5854603559905812" },
+    ],
+  ],
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/stackfoss/brefapp/blob/main/docs/',
         },
         blog: {
           showReadingTime: true,
-          blogTitle: 'Theories Central Blog',
-          blogDescription: 'Explore insightful theories in psychology, philosophy, sociology, and more.',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogTitle: 'Book Summaries Central Blog',
+          blogDescription: 'Explore insightful book summaries in psychology, philosophy, sociology, and more.',
+          editUrl: 'https://github.com/stackfoss/brefapp/tree/main/blog/',
         },
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
+      },
     ],
   ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'Brefapp',
-        logo: {
-          alt: 'Brefapp',
-          src: 'img/logo.png',
+  themeConfig: {
+    image: 'img/docusaurus-social-card.jpg',
+    navbar: {
+      title: 'Brefapp',
+      logo: {
+        alt: 'Brefapp',
+        src: 'img/logo.png',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Summaries',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Theories',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            className: 'header-github-link',
-            label: 'GitHub',
-            position: 'right',
-            'aria-label': 'GitHub repository',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Theories',
-            items: [
-              {
-                label: 'Theories',
-                to: '/theories/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/@brefapp',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/stackfoss/brefapp',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/brefapp',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/stackfoss',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Brefapp. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/quotes', label: 'Quotes', position: 'left' },
+        { to: '/reviews', label: 'Reviews', position: 'left' },
+        { to: '/booklist', label: 'Awesome List', position: 'left' },
+        {
+          href: 'https://github.com/stackfoss/brefapp',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+      ],
+    },
+    footer: {
+      style: 'light',
+      links: [
+        {
+          title: 'Book Summaries',
+          items: [
+            {
+              label: 'Summaries',
+              to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Social',
+          items: [
+            {
+              label: 'Youtube',
+              href: 'https://www.youtube.com/@brefapp',
+            },
+            {
+              label: 'Github',
+              href: 'https://github.com/stackfoss/brefapp',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/brefapp',
+            },
+          ],
+        },
+        {
+          title: 'Quick Links',
+          items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'Donate',
+              href: 'https://www.buymeacoffee.com/stackfoss',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Brefapp. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+    metadata: [
+      { name: 'description', content: 'Explore book summaries and enhance your knowledge.' }, { name: 'keywords', content: 'book summaries, literature summaries, best book summaries, non-fiction summaries, fiction summaries, self-help summaries, business book summaries, philosophy book summaries, psychology book summaries, science book summaries, history book summaries, technology book summaries, education book summaries, personal development summaries, key takeaways, insightful summaries, recommended books, must-read book summaries, reading guides, intellectual growth, literary analysis, classic literature summaries, contemporary literature summaries,top book sumamries, literary reviews, literature recommendations, curated book summaries' },
+      { name: 'og:title', content: 'Brefapp - Big Ideas Summarized For You' },
+      { name: 'og:description', content: 'Explore book summaries and enhance your knowledge.' },
+      { name: 'og:image', content: 'img/docusaurus-social-card.jpg' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Brefapp - Big Ideas Summarized For You' },
+      { name: 'twitter:description', content: 'Explore book summaries and enhance your knowledge.' },
+      { name: 'twitter:image', content: 'img/docusaurus-social-card.jpg' },
+    ],
+  },
 };
 
 export default config;
+

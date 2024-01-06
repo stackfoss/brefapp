@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Best Science Fiction Books of the Week",
+      "category": "Science Fiction",
+      "description": "Explore the most captivating science fiction novels handpicked for you.",
+      "books": [
+        { "title": "Dune", "author": "Frank Herbert", "description": "A classic masterpiece of science fiction.", "year": 1965, "rating": 4.5 },
+        { "title": "Neuromancer", "author": "William Gibson", "description": "A cyberpunk novel that redefined the genre.", "year": 1984, "rating": 4.2 },
+        { "title": "Ender's Game", "author": "Orson Scott Card", "description": "A thrilling tale of a young genius in a futuristic war.", "year": 1985, "rating": 4.3 }
+      ]
+    },
+    {
+      "title": "Top 5 Mystery Novels of the Month",
+      "category": "Mystery",
+      "description": "Get ready for suspense and intrigue with these top mystery novels.",
+      "books": [
+        { "title": "Gone Girl", "author": "Gillian Flynn", "description": "A psychological thriller that keeps you guessing.", "year": 2012, "rating": 4.6 },
+        { "title": "The Da Vinci Code", "author": "Dan Brown", "description": "A gripping mix of art, history, and mystery.", "year": 2003, "rating": 4.0 },
+        { "title": "The Girl with the Dragon Tattoo", "author": "Stieg Larsson", "description": "An intricate tale of crime and investigation.", "year": 2005, "rating": 4.4 }
+      ]
+    },
+    {
+      "title": "Must-Read Non-Fiction Books of the Year",
+      "category": "Non-Fiction",
+      "description": "Explore real-world stories and gain insights with these non-fiction gems.",
+      "books": [
+        { "title": "Sapiens", "author": "Yuval Noah Harari", "description": "A journey through the history of humankind.", "year": 2014, "rating": 4.8 },
+        { "title": "Educated", "author": "Tara Westover", "description": "A memoir of a woman's quest for knowledge.", "year": 2018, "rating": 4.7 },
+        { "title": "Becoming", "author": "Michelle Obama", "description": "An inspiring autobiography of the former First Lady.", "year": 2018, "rating": 4.9 }
+      ]
+    }
+  ]
+  

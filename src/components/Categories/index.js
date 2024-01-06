@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  FaBrain,
   FaBook,
+  FaGlobe,
   FaUsers,
   FaChartLine,
   // ... Add other icons as needed
@@ -9,57 +9,50 @@ import {
 
 const CategoryList = [
   {
-    title: 'Psychology',
-    subtitle: 'Explore the depths of the human mind',
-    icon: <FaBrain size={40} />,
-    link: '/psychology',
+    title: 'Fiction',
+    icon: <FaBook size={20} />,
+    link: '/fiction',
   },
   {
-    title: 'Philosophy',
-    subtitle: 'Delve into profound philosophical ideas',
-    icon: <FaBook size={40} />,
-    link: '/philosophy',
+    title: 'Non-Fiction',
+    icon: <FaGlobe size={20} />,
+    link: '/non-fiction',
   },
   {
-    title: 'Sociology',
-    subtitle: 'Study human society and social behavior',
-    icon: <FaUsers size={40} />,
-    link: '/sociology',
+    title: 'Science Fiction',
+    icon: <FaUsers size={20} />,
+    link: '/science-fiction',
   },
   {
-    title: 'Economics',
-    subtitle: 'Understand the principles of economics',
-    icon: <FaChartLine size={40} />,
-    link: '/economics',
+    title: 'Business',
+    icon: <FaChartLine size={20} />,
+    link: '/business',
   },
   // ... Add other categories as needed
 ];
 
-const CategoryCard = ({ title, subtitle, icon, link }) => (
-  <div className="bg-gradient-to-br from-green-400 to-blue-500 text-white p-8 rounded-lg shadow-lg transition-transform hover:scale-105">
-    <div className="flex items-start justify-start mb-4">
-      <div className="mr-4">
+const CategoryCard = ({ title, icon, link }) => (
+  <a
+    href={link}
+    className="block p-4 rounded-md shadow-md transition-transform hover:scale-105 bg-[#6CB2E1]"
+  >
+    <div className="flex items-center justify-start mb-2">
+      <div className="mr-2">
         {icon}
       </div>
-      <div>
-        <h3 className="text-xl font-semibold mb-1">{title}</h3>
-        <p className="text-sm">{subtitle}</p>
-      </div>
+      <h3 className="text-sm font-semibold text-white">{title}</h3>
     </div>
-    <a href={link} className="mt-4 inline-block text-blue-300 hover:underline">
-      Explore {title}
-    </a>
-  </div>
+  </a>
 );
 
 const Categories = () => (
-  <div className="py-12 bg-gray-100 text-left">
+  <div className="py-12 bg-[#F3F4F6] text-left">
     <div className="container mx-auto">
-      <div className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-6xl dark:text-white">
-        Our Top Categories
+      <div className="mb-4 text-xl text-center font-extrabold leading-none tracking-tight text-gray-700 md:text-2xl lg:text-4xl dark:text-white">
+        Discover Top Genres
       </div>
-      <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-        Big ideas summarized for you
+      <p className="mb-6 text-lg text-center font-normal text-gray-400 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        Explore various genres from fiction and non-fiction to science fiction and business.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {CategoryList.map((category, index) => (
