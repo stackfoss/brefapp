@@ -5,10 +5,10 @@ const config = {
   title: 'Brefapp',
   tagline: 'Big Ideas Summarized For You',
   favicon: 'img/favicon.ico',
-  url: 'https://brefapp.pages.dev',
+  url: 'https://brefapp.com',
   baseUrl: '/',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'stackfoss',
+  projectName: 'brefapp',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   i18n: {
@@ -156,7 +156,8 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
     metadata: [
-      { name: 'description', content: 'Explore book summaries and enhance your knowledge.' }, { name: 'keywords', content: 'book summaries, literature summaries, best book summaries, non-fiction summaries, fiction summaries, self-help summaries, business book summaries, philosophy book summaries, psychology book summaries, science book summaries, history book summaries, technology book summaries, education book summaries, personal development summaries, key takeaways, insightful summaries, recommended books, must-read book summaries, reading guides, intellectual growth, literary analysis, classic literature summaries, contemporary literature summaries,top book sumamries, literary reviews, literature recommendations, curated book summaries' },
+      { name: 'description', content: 'Explore book summaries and enhance your knowledge.' }, 
+      { name: 'keywords', content: 'book summaries, literature summaries, best book summaries, non-fiction summaries, fiction summaries, self-help summaries, business book summaries, philosophy book summaries, psychology book summaries, science book summaries, history book summaries, technology book summaries, education book summaries, personal development summaries, key takeaways, insightful summaries, recommended books, must-read book summaries, reading guides, intellectual growth, literary analysis, classic literature summaries, contemporary literature summaries,top book sumamries, literary reviews, literature recommendations, curated book summaries' },
       { name: 'og:title', content: 'Brefapp - Big Ideas Summarized For You' },
       { name: 'og:description', content: 'Explore book summaries and enhance your knowledge.' },
       { name: 'og:image', content: 'img/docusaurus-social-card.jpg' },

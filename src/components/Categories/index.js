@@ -1,32 +1,27 @@
 import React from 'react';
-import {
-  FaBook,
-  FaGlobe,
-  FaUsers,
-  FaChartLine,
-  // ... Add other icons as needed
-} from 'react-icons/fa';
-
+import { MdOutlinePsychology, MdPsychologyAlt } from "react-icons/md";
+import { IoPeopleSharp } from "react-icons/io5";
+import { FaChartPie } from "react-icons/fa";
 const CategoryList = [
   {
-    title: 'Fiction',
-    icon: <FaBook size={20} />,
-    link: '/fiction',
+    title: 'Psychology',
+    icon: <MdOutlinePsychology size={20} />,
+    link: '/docs/psychology/The-Man-Who-Mistook-His-Wife-for-a-Hat',
   },
   {
-    title: 'Non-Fiction',
-    icon: <FaGlobe size={20} />,
-    link: '/non-fiction',
+    title: 'Philosophy',
+    icon: <MdPsychologyAlt size={20} />,
+    link: '/docs/philosophy/The-Communist-Manifesto',
   },
   {
-    title: 'Science Fiction',
-    icon: <FaUsers size={20} />,
-    link: '/science-fiction',
+    title: 'Sociology',
+    icon: <IoPeopleSharp size={20} />,
+    link: '/docs/sociology/The-Protestant-Ethic-and-the-Spirit-of-Capitalism',
   },
   {
-    title: 'Business',
-    icon: <FaChartLine size={20} />,
-    link: '/business',
+    title: 'Economics',
+    icon: <FaChartPie size={20} />,
+    link: '/docs/economics/Adam-Smith-and-The%20Wealth-of-Nations',
   },
   // ... Add other categories as needed
 ];
@@ -48,7 +43,7 @@ const CategoryCard = ({ title, icon, link }) => (
 const Categories = () => (
   <div className="py-12 bg-[#F3F4F6] text-left">
     <div className="container mx-auto">
-      <div className="mb-4 text-xl text-center font-extrabold leading-none tracking-tight text-gray-700 md:text-2xl lg:text-4xl dark:text-white">
+      <div className="mb-4 text-xl text-center font-extrabold leading-none tracking-tight text-[#0D3B66] md:text-2xl lg:text-4xl dark:text-white">
         Discover Top Genres
       </div>
       <p className="mb-6 text-lg text-center font-normal text-gray-400 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">

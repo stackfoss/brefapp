@@ -24,7 +24,7 @@ export default function Home() {
           </Heading>
           <p className="text-gray-500 text-2xl mb-6">{siteConfig.tagline}</p>
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
-            <Link to="/categories">
+            <Link to="/docs/intro">
               <button className="rounded-full bg-blue-500 text-white px-6 py-3 hover:bg-blue-600">
                 Explore Categories
               </button>

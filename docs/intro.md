@@ -2,46 +2,33 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to Brefapp!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## The World of Books: Open, Free, and Insightful
+At Brefapp, we're on a mission to make the world of books accessible to everyone. Our platform is not just a collection of book summaries; it's a celebration of knowledge, made free and open source for all.
+## Why Brefapp?
 
-## Getting Started
+- **Open Source Wisdom:** Embrace the power of open source knowledge with our freely accessible book summaries. We believe in breaking down barriers to information.
 
-Get started by **creating a new site**.
+- **No Cost, All Value:** Knowledge is priceless, and so is our commitment to providing it for free. Say goodbye to paywalls and hello to unlimited learning opportunities.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Community-Driven:** Be part of a community that values sharing insights. Engage with fellow readers, share your thoughts, and contribute to the collective wisdom.
 
-### What you'll need
+- **Easy Exploration:** Navigate through a user-friendly interface designed for seamless exploration. Discover your next read effortlessly.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How It Works
 
-## Generate a new site
+1. **Explore:** Navigate our extensive collection of open source book summaries, conveniently organized by genre, author, or popularity.
 
-Generate a new Docusaurus site using the **classic template**.
+2. **Learn:** Dive into insightful summaries that encapsulate the essence of each book, saving you time without compromising on knowledge.
 
-The classic template will automatically be added to your project after you run the command:
+3. **Contribute:** Enhance the platform by contributing summaries, suggesting new books, and participating in discussions.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+4. **Spread the Word:** Share the joy of open source reading with friends, family, and the global community.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Join the Open Source Reading Revolution
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Experience the freedom of knowledge with Brefapp. As an open source and free platform, we invite you to join us on a journey where learning knows no bounds.
 
-## Start your site
+Happy reading, the open source way!
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
