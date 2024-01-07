@@ -54,15 +54,9 @@ const config = {
         ],
       },
     ],
-    [
-      '@docusaurus/plugin-google-tag-manager',
-      {
-        containerId: 'GTM-53DL4FDC',
-      },
-    ],
 [
   "@gracefullight/docusaurus-plugin-google-adsense",
-  { adClient: "ca-pub-5854603559905812", enableAutoAd: true },
+  { adClient: "ca-pub-5854603559905812"},
 ],
   ],
   presets: [
