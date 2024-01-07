@@ -56,7 +56,7 @@ const config = {
     ],
     [
       "@gracefullight/docusaurus-plugin-google-adsense",
-      { adClient: "pub-5854603559905812" },
+      { adClient: "ca-pub-5854603559905812" },
     ],
   ],
   presets: [
