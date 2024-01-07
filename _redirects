@@ -1,0 +1,4 @@
+# Netlify redirects file, edit with your domain
+# https://www.netlify.com/docs/redirects/
+https://brefapp.netlify.app/*  https://www.brefapp.com/:splat  301!
+http://brefapp.netlify.app/*  https://www.brefapp.com/:splat  301!
