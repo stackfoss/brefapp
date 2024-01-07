@@ -60,6 +60,10 @@ const config = {
         containerId: 'GTM-53DL4FDC',
       },
     ],
+[
+  "@gracefullight/docusaurus-plugin-google-adsense",
+  { adClient: "ca-pub-5854603559905812", enableAutoAd: true },
+],
   ],
   presets: [
     [
@@ -67,7 +71,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/stackfoss/brefapp/blob/main/',
+          editUrl: 'https://github.com/stackfoss/brefapp/blob/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -168,28 +172,6 @@ const config = {
       { name: 'twitter:description', content: 'Explore book summaries and enhance your knowledge.' },
       { name: 'twitter:image', content: 'img/docusaurus-social-card.jpg' },
     ],
-    customFields: {
-      scripts: [
-        {
-          async: true,
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5854603559905812',
-          crossorigin: 'anonymous',
-        },
-        {
-          async: true,
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-H0HKRQJCGE',
-        },
-        {
-          async: true,
-          innerHTML: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-H0HKRQJCGE');
-          `,
-        },
-      ],
-    },
   },
 };
 
