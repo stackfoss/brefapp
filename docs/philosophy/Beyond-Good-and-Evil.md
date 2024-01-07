@@ -1,12 +1,5 @@
 ---
-title: "Unraveling the Depths of Theory: A Comprehensive Exploration"
-slug: "Unraveling the Depths of Theory: A Comprehensive Exploration"
-tags:
-  - Theory
-  - Psychology
-authors:
-  - name: StackFoss
-    title: Theory
+sidebar_position: 2
 ---
 # Unraveling the Depths of Theory: A Comprehensive Exploration
 

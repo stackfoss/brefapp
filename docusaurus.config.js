@@ -71,7 +71,7 @@ const config = {
           showReadingTime: true,
           blogTitle: 'Book Summaries Central Blog',
           blogDescription: 'Explore insightful book summaries in psychology, philosophy, sociology, and more.',
-          editUrl: 'https://github.com/stackfoss/brefapp/tree/main/blog/',
+          editUrl: 'https://github.com/stackfoss/brefapp/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -131,7 +131,7 @@ const config = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/brefapp',
+              href: 'https://twitter.com/brefapp1',
             },
           ],
         },
