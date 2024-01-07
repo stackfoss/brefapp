@@ -18,10 +18,10 @@ const config = {
   plugins: [
     async function myPlugin(context, options) {
       return {
-        name: 'docusaurus-tailwindcss',
+        name: "docusaurus-tailwindcss",
         configurePostCss(postcssOptions) {
-          postcssOptions.plugins.push(require('tailwindcss'));
-          postcssOptions.plugins.push(require('autoprefixer'));
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
           return postcssOptions;
         },
       };
@@ -30,7 +30,11 @@ const config = {
       '@docusaurus/plugin-pwa',
       {
         debug: true,
-        offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
         pwaHead: [
           {
             tagName: 'link',
@@ -50,6 +54,12 @@ const config = {
         ],
       },
     ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-53DL4FDC',
+      },
+    ],
   ],
   presets: [
     [
@@ -57,7 +67,7 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/stackfoss/brefapp/blob/main/docs/',
+          editUrl: 'https://github.com/stackfoss/brefapp/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -148,12 +158,8 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
     metadata: [
-      { name: 'description', content: 'Explore book summaries and enhance your knowledge.' },
-      {
-        name: 'keywords',
-        content:
-          'book summaries, literature summaries, best book summaries, non-fiction summaries, fiction summaries, self-help summaries, business book summaries, philosophy book summaries, psychology book summaries, science book summaries, history book summaries, technology book summaries, education book summaries, personal development summaries, key takeaways, insightful summaries, recommended books, must-read book summaries, reading guides, intellectual growth, literary analysis, classic literature summaries, contemporary literature summaries,top book sumamries, literary reviews, literature recommendations, curated book summaries',
-      },
+      { name: 'description', content: 'Explore book summaries and enhance your knowledge.' }, 
+      { name: 'keywords', content: 'book summaries, literature summaries, best book summaries, non-fiction summaries, fiction summaries, self-help summaries, business book summaries, philosophy book summaries, psychology book summaries, science book summaries, history book summaries, technology book summaries, education book summaries, personal development summaries, key takeaways, insightful summaries, recommended books, must-read book summaries, reading guides, intellectual growth, literary analysis, classic literature summaries, contemporary literature summaries,top book sumamries, literary reviews, literature recommendations, curated book summaries' },
       { name: 'og:title', content: 'Brefapp - Big Ideas Summarized For You' },
       { name: 'og:description', content: 'Explore book summaries and enhance your knowledge.' },
       { name: 'og:image', content: 'img/docusaurus-social-card.jpg' },
@@ -162,18 +168,29 @@ const config = {
       { name: 'twitter:description', content: 'Explore book summaries and enhance your knowledge.' },
       { name: 'twitter:image', content: 'img/docusaurus-social-card.jpg' },
     ],
+    customFields: {
+      scripts: [
+        {
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5854603559905812',
+          crossorigin: 'anonymous',
+        },
+        {
+          async: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-H0HKRQJCGE',
+        },
+        {
+          async: true,
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-H0HKRQJCGE');
+          `,
+        },
+      ],
+    },
   },
-  head: [
-    [
-      'script',
-      {
-        async: true,
-        src:
-          'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5854603559905812',
-        crossorigin: 'anonymous',
-      },
-    ],
-  ],
 };
 
 export default config;
